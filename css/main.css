@@ -1,0 +1,645 @@
+#header {
+    width: 100%;
+    background-color: #023586;
+}
+
+.headerin {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.headerin .logo {
+    padding: 20px 0;
+}
+
+.headerin .gnb {
+    position: absolute;
+    transform: translateY(-50%);
+    right: 0;
+    top: 50%;
+    margin-top: 5px;
+}
+
+.headerin .gnb li {
+    float: left;
+    margin-right: 132px;
+
+}
+
+.headerin .gnb li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+/* header끝 */
+
+#mainVisual {
+    width: 100%;
+    height: 430px;
+    position: relative;
+    background-color: #023586;
+
+}
+
+#mainVisual .wave1 {
+    width: 100%;
+    height: 115px;
+    background: url(../img/wave1.png) repeat-x 0 bottom;
+    padding-bottom: 410px;
+    position: absolute;
+    font-size: 0;
+}
+
+#mainVisual .mtxt p {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    padding: 120px;
+    padding-right: 750px;
+    z-index: 1;
+}
+
+
+#mainVisual .mtxt p span {
+    font-size: 50px;
+    position: absolute;
+    padding-top: 70px;
+    margin-left: -150px;
+}
+
+
+.bugi {
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    position: absolute;
+    top: 0%;
+    left: 55%;
+}
+
+
+.circle1 {
+    border-radius: 50%;
+    background-color: #9aaecf;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -170px;
+}
+
+.circle2 {
+    border-radius: 50%;
+    background-color: #9aaecf;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 1020px;
+    margin-top: -300px;
+}
+
+.circle3 {
+    border-radius: 50%;
+    background-color: #9aaecf;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 10px;
+}
+
+.circle4 {
+    border-radius: 50%;
+    background-color: #3773d3;
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    right: 0;
+    margin-right: 457px;
+    margin-top: -237px;
+}
+
+.circle5 {
+    border-radius: 50%;
+    background-color: #3773d3;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: -300px;
+}
+
+.circle6 {
+    border-radius: 50%;
+    background-color: #3a89ce;
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    margin-left: 390px;
+    margin-top: -250px;
+}
+
+.circle7 {
+    border-radius: 50%;
+    background-color: #75a5cf;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -150px;
+}
+
+
+.circle8 {
+    border-radius: 50%;
+    background-color: #75a5cf;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 20px;
+    margin-top: -220px;
+}
+
+.circle3 {
+    border-radius: 50%;
+    background-color: #9aaecf;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 100px;
+    margin-top: 10px;
+}
+
+
+
+.circlezone {
+    width: 100%;
+    height: auto;
+    opacity: 0;
+    transition: all 0.4s;
+}
+
+.circlezone:hover {
+    opacity: 0.5;
+}
+
+/* mainVisual 끝 */
+
+
+#container {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.bestmenu {
+    width: 800px;
+    margin: 400px auto;
+    margin-top: 300px;
+}
+
+.bestmenu h1 {
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+.bestmenu ul {
+    padding-top: 200px;
+    margin-top: -30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.bestmenu ul li .b_img {
+    transition: all 0.6s;
+    width: 100%;
+    height: auto;
+}
+
+.bestmenu ul li .b_img:hover {
+    transform: scale(1.1);
+}
+
+.bestmenu ul li .b_txt {
+    margin-top: 16px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.menu_list ul {
+    width: 1200px;
+    margin: -200px;
+    display: flex;
+
+}
+
+.menu_list ul li {
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.menu_list ul li:first-child {
+    margin-left: 50px;
+}
+
+.menu_list ul li:last-child {
+    margin-right: 50px;
+}
+
+.menu_list ul li img {
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+}
+
+.menu_list ul li p {
+    text-align: center;
+    margin: 30px;
+}
+
+.button {
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #aaa;
+    text-align: center;
+    margin-top: 280px;
+    margin-left: 320px;
+
+}
+
+/* bestmenu 끝 */
+
+#cont2 {
+    /* width: 1200px; */
+    display: flex;
+    margin: 0 auto;
+}
+
+.promotion {
+    width: 1200px;
+    margin: 100px auto;
+    position: relative;
+    margin-top: -100px;
+}
+
+.promotion h2 {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    margin-bottom: 80px;
+}
+
+
+.promotion ul {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.arrows .prev {
+    font-size: 0;
+}
+
+.arrows .next {
+    font-size: 0;
+}
+
+/* .arrows .prev {
+    width: 29px;
+    height: 54px;
+    background: url(../img/prev.png) no-repeat;
+    font-size: 0;
+    margin-left: -200px;
+    transform: translateY(-200%);
+    position: absolute;
+}
+
+.arrows .next {
+    width: 29px;
+    height: 54px;
+    background: url(../img/next.png) no-repeat;
+    font-size: 0;
+    right: 0;
+    position: absolute;
+    margin-right: -200px;
+    transform: translateY(-200%);
+} */
+
+.event4 {
+    width: 2051px;
+    height: 280px;
+    background: url(../img/event4.jpg) no-repeat center center/ 100% auto;
+    position: absolute;
+    margin-left: -500px;
+    transform: translateY(40%);
+    font-size: 0;
+
+}
+
+#cont3 {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.cont3_tit h3 {
+    margin-top: 200px;
+    text-align: center;
+    font-size: 36px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    padding-top: 300px;
+}
+
+.new {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 110px;
+}
+
+.new li {
+    border-radius: 30px;
+    overflow: hidden;
+    transition: all 0.6s;
+}
+
+.new li:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+
+.new p {
+    font-size: 14px;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(126, 126, 126);
+}
+
+.new h4 {
+    position: absolute;
+    margin-top: -28px;
+    font-size: 20px;
+    margin-left: 30px;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgb(126, 126, 126);
+}
+
+.new .button {
+    position: absolute;
+    display: block;
+    width: 150px;
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #aaa;
+    text-align: center;
+    top: 80%;
+    margin-left: 515px;
+    transform: translateY(-80%);
+    margin-top: 210px;
+
+}
+
+/* newmenu 끝 */
+
+#cont4 {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 300px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+}
+
+
+.video1 {
+    width: 1200px;
+    margin: 0 auto;
+    top: 50%;
+    margin-top: 200px;
+    margin-left: -400px;
+}
+
+.video2 {
+    width: 1200px;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -327px;
+    margin-left: 300px;
+}
+
+
+.searchForm {
+    width: 600px;
+    margin: 40px auto;
+    display: flex;
+    margin-top: 220px;
+}
+
+.searchForm label {
+    display: none;
+}
+
+.searchForm input {
+    width: 520px;
+    height: 64px;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0.08);
+    padding-left: 20px;
+    outline: 2px solid #aaa;
+}
+
+.searchForm input::placeholder {
+    color: #ccc;
+}
+
+.searchForm .submit {
+    border: 0;
+    background: #023586;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    border-radius: 10px;
+    margin-left: 16px;
+    font-size: 0;
+    position: relative;
+}
+
+.searchForm .submit::after {
+    content: '';
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -9px;
+    margin-left: -9px;
+    color: #fff;
+}
+
+
+
+
+#footer {
+    width: 100%;
+    height: 370px;
+    background-color: #023586;
+    margin-top: 500px;
+    position: relative;
+}
+
+#footer .wave {
+    background: url(../img/wave2.png) repeat no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: -70px;
+    font-size: 0;
+}
+
+.ft_menu {
+    width: 1200px;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.ft_menu_left h5 {
+    position: absolute;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    text-align: center;
+    top: 50%;
+    left: 0%;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.ft_menu_left p {
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    opacity: 80%;
+    letter-spacing: 2px;
+    top: 50%;
+    left: 0;
+    margin-left: 90px;
+    margin-top: 110px;
+}
+
+.ft_menu_right h6 {
+    position: absolute;
+    font-size: 30px;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-left: -290px;
+    margin-top: 50px;
+}
+
+.ft_menu_right p {
+    position: absolute;
+    font-size: 15px;
+    color: #fff;
+    opacity: 80%;
+    letter-spacing: 2px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-left: -290px;
+    margin-top: 110px;
+}
+
+.f_txt {
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    opacity: 80%;
+    width: 1200px;
+    margin-top: 300px;
+}
+
+.f_txt span {
+    color: #aaa;
+}
+
+
+.ft_app {
+    position: absolute;
+    top: 50%;
+    margin-top: 50px;
+    left: 50%;
+    margin-left: 300px;
+}
+
+.ft_app p {
+    color: #fff;
+    letter-spacing: 3px;
+    position: relative;
+    font-size: 45px;
+    opacity: 80%;
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.applink {
+    font-size: 0;
+    position: relative;
+}
+
+.applink .youtube {
+    background: url(../img/youtube.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.applink .insta {
+    background: url(../img/insta.png) no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 40px;
+}
+
+.applink .twit {
+    background: url(../img/twit.png) no-repeat;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+
+
+#banner {
+    position: fixed;
+    top: 700px;
+    right: 10px;
+}
